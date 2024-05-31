@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_halohalo.css" type="text/css">
+    <script src="https://kit.fontawesome.com/73e9ad9acb.js" crossorigin="anonymous"></script>
+    <title>Halorious Treats</title>
+</head>
+<body>
+    
+    <!-----sidebar------->
+    <div id="root">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#icon1" class="active"><i class="fas fa-home fa-2x" id="homeicon"></i></a></li>
+                <li><a href="#icon2"><i class="fas fa-concierge-bell fa-2x" id="customizeS"></i></a></li>
+                <li><a href="#"><i class="fas    fa-info-circle fa-2x" id="infos"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope fa-2x"></i></a></li>
+            </ul>
+        </div>
+            <!----------------main------------------>
+            <div class="main">
+                <div id="icon1" class="search-bar">
+                    <img src="logo1.png" alt="text" class="logo">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="banner">
+                    <h1>Welcome to Halorious Treats!</h1>
+                </div>
+                <div class="display-area">
+                    <h2>Available Items</h2>
+                    <div id="products"></div>
+                      
+                </div>
+                <div id="icon2"class="custom">
+                    <h1>Customize your own halo-halo!</h1>
+                </div>
+                <div class="display-area">
+                    <h2>Available Toppings</h2>
+                    <div id="toppings"></div>
+                    <div id="toppings2"></div>  
+                </div>  
+            </div>
+            
+        
+        
+
+
+        <!------------------cart---------------------->
+        <div class="cart">
+            <div id="roots">
+            <div class="cart-header">
+                <h2>My Cart</h2>
+                <i id="ok" class="fa-solid fa-cart-shopping">
+                    <span id="count">0</span>
+                </i>
+            </div>
+            
+            
+            <ul id="cart-items"> </ul>
+
+            <div class="foot">
+            <h3>Total:</h3>
+            <h3 id="total">₱ 0.00</h3> 
+           </div>
+        </div>
+        </div>
+        
+        
+        
+       
+    <script src="JsngHalo.js"></script>
+</body>
+</html>
